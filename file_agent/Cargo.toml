@@ -1,0 +1,23 @@
+[package]
+name = "file_agent"
+version = "0.1.0"
+authors = ["Hongbin Mao <hello2mao@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log           = { version = "0.4.6", features = ["release_max_level_info"] }
+anyhow        = { version = "1.0.26" }
+serde_json    = { version = "1.0.39" }
+serde         = { version = "1.0.92", features = ["derive"] }
+thiserror     = { version = "1.0.9" }
+itertools     = { version = "0.8.0", default-features = false }
+
+url             = { version = "2.1.1", features = ["serde"]}
+tokio           = { version = "0.2", features = ["rt-core", "rt-threaded", "fs"] }
+tokio-util      = { version = "0.3", features = ["codec"] }
+futures         = { version = "0.3" }
+futures-util    = { version = "0.3.0", default-features = false }
+reqwest         = { version = "0.10", features = ["json", "stream"] }
+http            = { version = "0.2" }
