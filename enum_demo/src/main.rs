@@ -20,7 +20,6 @@ impl Message {
 
 fn main() {
 
-
     let msg1 = Message::Quit;
     msg1.print();
     println!("msg1: {:#?}", msg1);
