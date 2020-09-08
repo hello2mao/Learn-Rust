@@ -21,6 +21,10 @@ fn main() {
     let sum = x + temp;
     println!("sum is {}", sum);
 
+    if let Some(value) = plus_one(y) {
+        println!("value = {}", value);
+    }
+
     println!("Hello, world!");
 }
 
