@@ -9,3 +9,6 @@
 ## Video
 
 - [Rust编程视频教程（基础）](https://www.bilibili.com/video/BV1xJ411B79h?p=14)
+- [Rust编程视频教程（进阶）](https://www.bilibili.com/video/av81202308/)
+- [Rust异步编程](https://www.bilibili.com/video/BV1uZ4y1W738)
+- [Rust网络编程系列](https://www.bilibili.com/video/BV1b54y1X7my)
