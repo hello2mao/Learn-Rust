@@ -45,6 +45,5 @@ fn main() {
     let v3: Vec<_> = v1.into_iter().filter(|x| *x > 2).collect();
     println!("{:?}", v3);
 
-
     println!("Hello, world!");
 }
