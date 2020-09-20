@@ -21,11 +21,11 @@ fn main() {
 
     thread::spawn(move || {
         let val = String::from("hi");
-        tx.send(val).unwrap();
+        tx.send(val).unwrap(); // val move to channel
     });
 
     let received = rx.recv().unwrap();
     println!("Got {}", received);
-    
+
     println!("Hello, world!");
 }
